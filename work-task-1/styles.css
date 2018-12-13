@@ -1,0 +1,31 @@
+button {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: left;
+  height: 140px;
+  width: 270px;
+  padding: 0 10px 0 20px;
+  border: 3.4px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f49a36;
+  background: -webkit-linear-gradient(to right, #f0b45f, #f49a36);
+  background: linear-gradient(to right, #f0b45f, #f49a36);
+}
+button::after {
+  content: "\2716";
+  font-size: 50px;
+  height: 110px;
+  width: 110px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button:hover {
+  cursor: pointer;
+}

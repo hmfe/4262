@@ -1,0 +1,18 @@
+$background-color: #fff;
+$background-hover-color: #f8f4fa;
+$primary-color: #9d50bb;
+$gradient-stop-color: #6e48aa;
+$button-text-color: #fff;
+$li-border-color: #f3ecf3;
+$outline-color: #9c919c;
+
+@mixin linear-gradient($direction, $first-color, $second-color) {
+  background: $first-color;
+  background: -webkit-linear-gradient($direction, $first-color, $second-color);
+  background: linear-gradient(to $direction, $first-color, $second-color);
+}
+
+@mixin transition($property, $duration, $timing) {
+  -webkit-transition: $property $duration $timing;
+  transition: $property $duration $timing;
+}
